@@ -4,14 +4,10 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-
-
 function Carrossel() {
   return (
     <div className="w-full max-w-6xl mx-auto mt-10 mb-4">
-   
-
-     <Swiper
+      <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         navigation
         pagination={{ clickable: true }}
@@ -43,8 +39,49 @@ function Carrossel() {
             className="w-full h-64 object-cover rounded-xl"
           />
         </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src="https://topsortassets.com/asset_01kj54qr8af28s8cr7a2w9mnka.png"
+            alt="Banner 2"
+            className="w-full h-64 object-cover rounded-xl"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src="https://topsortassets.com/asset_01khyawcatfjjsawnc0sb4vm1g.png"
+            alt="Banner 2"
+            className="w-full h-64 object-cover rounded-xl"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src="https://topsortassets.com/asset_01khyawdcsfx6bm98f0yhkm5dp.png"
+            alt="Banner 2"
+            className="w-full h-64 object-cover rounded-xl"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src="https://topsortassets.com/asset_01khyaw1xqeyhs7v3qsxqtysf4.png"
+            alt="Banner 2"
+            className="w-full h-64 object-cover rounded-xl"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src="https://topsortassets.com/asset_01khyaw2ebfmptv7h9a7jwhhad.png"
+            alt="Banner 2"
+            className="w-full h-64 object-cover rounded-xl"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src="https://topsortassets.com/asset_01khyawp06e39988j89624q05f.png"
+            alt="Banner 2"
+            className="w-full h-64 object-cover rounded-xl"
+          />
+        </SwiperSlide>
       </Swiper>
-
     </div>
   );
 }

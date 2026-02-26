@@ -6,7 +6,7 @@ function Navbar() {
         {/* logo */}
         <img
           className="ml-[-1rem] w-[12rem] my-[-2rem]"
-          src="https://raw.githubusercontent.com/allysonaggp/farmacia-frontend/refs/heads/master/farmacia-frontend/src/assets/img/logoDrogShop.png"
+          src="https://raw.githubusercontent.com/allysonaggp/Drogshop/refs/heads/master/src/assets/img/logoDrogShop.png"
           alt="logo DrogShop"
         />
 
