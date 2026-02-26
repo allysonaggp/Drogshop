@@ -2,9 +2,9 @@ import { FacebookLogo, InstagramLogo } from "phosphor-react";
 
 function Footer() {
   return (
-    <div className="bg-[#f3f3f3] flex gap-20 flex justify-center p-5">
+    <div className="bg-[#f3f3f3] gap-4 lg:gap-20 lg:flex grid grid-cols-2  justify-center p-5">
       {/* Institucional */}
-      <div className="flex flex-col gap-2">
+      <div className="hidden flex flex-col gap-2">
         <p className="font-bold text-[#fe4540] text-sm">Institucional</p>
         <div className="flex flex-col text-[#a7a4a2] text-sm">
           <a href="">Nossa Historia</a>

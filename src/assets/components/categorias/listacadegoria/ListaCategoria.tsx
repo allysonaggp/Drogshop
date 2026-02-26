@@ -22,7 +22,7 @@ function ListaCategoria() {
 
   return (
     
-    <div className="w-[72rem]  mb-6 grid grid-cols-4 gap-2">
+    <div className="w-[72rem]  mb-6 grid lg:grid-cols-4 gap-2">
       {categorias.map((categoria) => (
         <CardCategoria key={categoria.id} categoria={categoria} />
       ))}

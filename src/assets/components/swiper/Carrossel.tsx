@@ -6,7 +6,7 @@ import "swiper/css/pagination";
 
 function Carrossel() {
   return (
-    <div className="w-full max-w-6xl mx-auto mt-10 mb-4">
+    <div className="w-[42]  lg:w-full max-w-6xl mx-auto mt-10 mb-4">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         navigation
